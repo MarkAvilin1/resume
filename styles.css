@@ -170,7 +170,7 @@ header a:active {
           margin: 0 auto;
           width: 200px;
           height: 200px;
-          margin-top: 70px;
+          margin-top: 60px;
       }
 
       header h1 {
@@ -182,7 +182,7 @@ header a:active {
     }
     
     header h3 {
-        font-size: 19pt;
+        font-size: 18pt;
         text-align: center;
         color: gray;
     }
