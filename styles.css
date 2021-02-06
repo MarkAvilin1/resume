@@ -161,7 +161,7 @@ header a:active {
   @supports (display: flex) {
     @media screen and (max-width: 900px) {
         .title {
-            font-size: 20pt;
+            font-size: 18pt;
             font-weight: 700;
         }
 
@@ -174,14 +174,14 @@ header a:active {
 
       header h1 {
         font-family: fantasy;
-        font-size: 3rem;
+        font-size: 22pt;
         text-align: center;
         font-weight: 500;
         text-shadow: 1px 1px 1px rgb(182, 164, 4);
     }
     
     header h3 {
-        font-size: 20pt;
+        font-size: 19pt;
         text-align: center;
         color: gray;
     }
