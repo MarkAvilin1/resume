@@ -44,7 +44,7 @@ nav img{
 /* header  */
 header {
     text-shadow: 1px 1px 1px rgb(19, 2, 65);
-    padding: 5%;
+    padding: 5% 5% 0 5%;
 }
 
 #img {
