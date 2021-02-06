@@ -9,8 +9,8 @@ body {
 }
 
 .title {
-    font-size: 22pt;
-    font-weight: 900;
+    font-size: 18pt;
+    font-weight: bold;
 }
 
 /* Navbar */
@@ -60,14 +60,15 @@ header {
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 30pt;
+    font-family: 'Helvetica Neue', sans-serif;
     text-align: center;
     font-weight: 900;
     text-shadow: 1px 1px 1px rgb(182, 164, 4);
 }
 
 header h3 {
-    font-size: 26pt;
+    font-size: 22pt;
     text-align: center;
     color: gray;
 }
@@ -82,13 +83,20 @@ header i{
     padding: 1%;
 }
 
+header a {
+  text-decoration: none;
+  color: #333;
+}
 
+header a:active {
+  color: black;
+}
 
   /* About */
   #about {
     text-shadow: 1px 1px 1px rgb(19, 2, 65);
     padding: 0 5%;
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: justify;
   }
 
@@ -96,7 +104,7 @@ header i{
   #skills {
     text-shadow: 1px 1px 1px rgb(19, 2, 65);
     padding: 0 5%;
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: justify;
   }
 
@@ -117,7 +125,7 @@ header i{
   #education {
     text-shadow: 1px 1px 1px rgb(19, 2, 65);
     padding: 0 5%;
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: justify;
   }
 
@@ -129,7 +137,7 @@ header i{
   #experience {
     text-shadow: 1px 1px 1px rgb(19, 2, 65);
     padding: 0 5%;
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: justify;
   }
 
@@ -137,7 +145,15 @@ header i{
   #language {
     text-shadow: 1px 1px 1px rgb(19, 2, 65);
     padding: 0 5%;
-    font-size: 14pt;
+    font-size: 13pt;
+    text-align: justify;
+  }
+
+  /* Other Skills */
+  #other {
+    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    padding: 0 5%;
+    font-size: 13pt;
     text-align: justify;
   }
 
@@ -212,5 +228,12 @@ header i{
         font-size: 1rem;
         text-align: justify;
       }
+
+      #other {
+        padding: 0 2%;
+        font-size: 1rem;
+        text-align: justify;
+      }
+
     }
   }
