@@ -43,7 +43,7 @@ nav img{
 
 /* header  */
 header {
-    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    text-shadow: 0px 0px 1px black;
     padding: 5% 5% 0 5%;
 }
 
@@ -94,7 +94,7 @@ header a:active {
 
   /* About */
   #about {
-    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    text-shadow: 0px 0px 1px black;
     padding: 0 5%;
     font-size: 13pt;
     text-align: justify;
@@ -102,7 +102,7 @@ header a:active {
 
   /* skills */
   #skills {
-    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    text-shadow: 0px 0px 1px black;
     padding: 0 5%;
     font-size: 13pt;
     text-align: justify;
@@ -123,7 +123,7 @@ header a:active {
   /* Education */
   
   #education {
-    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    text-shadow: 0px 0px 1px black;
     padding: 0 5%;
     font-size: 13pt;
     text-align: justify;
@@ -135,7 +135,7 @@ header a:active {
 
   /* Experience */
   #experience {
-    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    text-shadow: 0px 0px 1px black;
     padding: 0 5%;
     font-size: 13pt;
     text-align: justify;
@@ -143,7 +143,7 @@ header a:active {
 
   /* Languages */
   #language {
-    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    text-shadow: 0px 0px 1px black;
     padding: 0 5%;
     font-size: 13pt;
     text-align: justify;
@@ -151,7 +151,7 @@ header a:active {
 
   /* Other Skills */
   #other {
-    text-shadow: 1px 1px 1px rgb(19, 2, 65);
+    text-shadow: 0px 0px 1px black;
     padding: 0 5%;
     font-size: 13pt;
     text-align: justify;
