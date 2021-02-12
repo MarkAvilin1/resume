@@ -158,8 +158,9 @@ header a:active {
   }
 
   /* Footer */
-  footer a {
+  footer a:active {
     text-decoration: none;
+    color: black;
   }
 
   footer p {
