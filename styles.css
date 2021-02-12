@@ -157,6 +157,15 @@ header a:active {
     text-align: justify;
   }
 
+  /* Footer */
+  footer a {
+    text-decoration: none;
+  }
+
+  footer p {
+    text-align: center;
+  }
+
    /* media section  */
   @supports (display: flex) {
     @media screen and (max-width: 900px) {
