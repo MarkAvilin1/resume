@@ -44,17 +44,12 @@ nav img{
 /* header  */
 header {
     text-shadow: 0px 0px 1px black;
-    padding: 5% 5% 0 5%;
+    padding: 5%;
 }
 
 #img {
-    background-image: url(img/mark.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 250px;
-    box-shadow: 1px 1px 1px black;
-    border-radius: 100%;
+    width: 200px;    
+    border-radius: 10%;
     float: right;
     margin-top: 70px;
 }
@@ -75,7 +70,6 @@ header h3 {
 
 header p {
     font-size: 1.2rem;
-    padding-left: 2%;
 }
 
 header i{
@@ -95,7 +89,7 @@ header a:active {
   /* About */
   #about {
     text-shadow: 0px 0px 1px black;
-    padding: 0 5%;
+    padding: 0 5% 5% 5%;
     font-size: 13pt;
     text-align: justify;
   }
@@ -103,7 +97,7 @@ header a:active {
   /* skills */
   #skills {
     text-shadow: 0px 0px 1px black;
-    padding: 0 5%;
+    padding: 5%;
     font-size: 13pt;
     text-align: justify;
   }
@@ -124,7 +118,7 @@ header a:active {
   
   #education {
     text-shadow: 0px 0px 1px black;
-    padding: 0 5%;
+    padding: 5%;
     font-size: 13pt;
     text-align: justify;
   }
@@ -136,7 +130,7 @@ header a:active {
   /* Experience */
   #experience {
     text-shadow: 0px 0px 1px black;
-    padding: 0 5%;
+    padding: 5%;
     font-size: 13pt;
     text-align: justify;
   }
@@ -144,7 +138,7 @@ header a:active {
   /* Languages */
   #language {
     text-shadow: 0px 0px 1px black;
-    padding: 0 5%;
+    padding: 5%;
     font-size: 13pt;
     text-align: justify;
   }
@@ -152,7 +146,7 @@ header a:active {
   /* Other Skills */
   #other {
     text-shadow: 0px 0px 1px black;
-    padding: 0 5%;
+    padding: 5%;
     font-size: 13pt;
     text-align: justify;
   }
@@ -160,7 +154,12 @@ header a:active {
   /* Footer */
   footer a:active {
     text-decoration: none;
-    color: black;
+    color: #222;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #222;
   }
 
   footer p {
@@ -177,18 +176,25 @@ header a:active {
 
       #img {
           float: none;
-          margin: 0 auto;
-          width: 200px;
-          height: 200px;
+          clear: both;
+          width: 100px;
+          border-radius: 10%;
+          text-align: center;
           margin-top: 60px;
       }
 
-      header h1 {
-        font-family: fantasy;
-        font-size: 22pt;
+      header div {
+        width: 100px;
+        margin: 0 auto;
         text-align: center;
-        font-weight: 500;
-        text-shadow: 1px 1px 1px rgb(182, 164, 4);
+      }
+
+      header h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 26pt;
+        text-align: center;
+        font-weight: 900;
+        text-shadow: 1px 1px 1px rgb(88, 61, 3);
     }
     
     header h3 {
