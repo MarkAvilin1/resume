@@ -49,7 +49,7 @@ header {
 
 #img {
     width: 250px;    
-    border-radius:30% 50%;
+    border-radius: 50%;
     float: right;
     margin-top: 70px;
     box-shadow: 2px 2px 5px black;
@@ -179,7 +179,8 @@ header a:active {
           float: none;
           clear: both;
           width: 100px;
-          border-radius: 10%;
+          border-radius: 50%;
+          box-shadow: 2px 2px 5px black;
           text-align: center;
           margin-top: 60px;
       }
